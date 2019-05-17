@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FireStoreDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRESTORE DEMO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWb-vW-VCJ">
+                                <rect key="frame" x="30" y="64" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Z1A-au-ZER"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
+                                <color key="textColor" red="0.01176470588" green="0.70196078429999997" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rahul" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGI-8X-1nk">
+                                <rect key="frame" x="30" y="154" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XXE-Ai-dLn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="25 " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QdE-bi-VbK">
+                                <rect key="frame" x="30" y="214" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="cOO-0E-lrn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Male" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="omN-Hz-bTl">
+                                <rect key="frame" x="30" y="274" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="F0c-QJ-dfy"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mohali" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5MB-fj-epV">
+                                <rect key="frame" x="30" y="334" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BZ5-up-Ir4"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="9876543210" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XC5-WO-J60">
+                                <rect key="frame" x="30" y="394" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="RMK-I1-cuA"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="India" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qx6-SX-3Wd">
+                                <rect key="frame" x="30" y="454" width="354" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2cO-9z-RMZ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGp-oC-eOt">
+                                <rect key="frame" x="30" y="524" width="354" height="50"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.46274509800000002" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ati-UZ-oH2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Save Data Into Firestore">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveDataIntoFirestoreBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qwq-iv-j7E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cGp-oC-eOt" firstAttribute="top" secondItem="Qx6-SX-3Wd" secondAttribute="bottom" constant="30" id="2QM-mM-X6d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="omN-Hz-bTl" secondAttribute="trailing" constant="30" id="2Ye-j6-pyI"/>
+                            <constraint firstItem="sGI-8X-1nk" firstAttribute="top" secondItem="kWb-vW-VCJ" secondAttribute="bottom" constant="50" id="3wH-mt-uyv"/>
+                            <constraint firstItem="kWb-vW-VCJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="4Tu-YX-iOp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cGp-oC-eOt" secondAttribute="trailing" constant="30" id="4fm-eE-QZ5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kWb-vW-VCJ" secondAttribute="trailing" constant="30" id="9kl-fP-vCo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGI-8X-1nk" secondAttribute="trailing" constant="30" id="AVf-hY-Jf5"/>
+                            <constraint firstItem="kWb-vW-VCJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="D5N-yp-gMx"/>
+                            <constraint firstItem="5MB-fj-epV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Ghh-NA-AZb"/>
+                            <constraint firstItem="Qx6-SX-3Wd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Izc-9a-ykU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XC5-WO-J60" secondAttribute="trailing" constant="30" id="MWi-fi-Hlo"/>
+                            <constraint firstItem="XC5-WO-J60" firstAttribute="top" secondItem="5MB-fj-epV" secondAttribute="bottom" constant="20" id="RV1-C7-PBB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5MB-fj-epV" secondAttribute="trailing" constant="30" id="S6d-z9-wTE"/>
+                            <constraint firstItem="omN-Hz-bTl" firstAttribute="top" secondItem="QdE-bi-VbK" secondAttribute="bottom" constant="20" id="V8v-gi-Kr4"/>
+                            <constraint firstItem="omN-Hz-bTl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="bE2-mR-cSI"/>
+                            <constraint firstItem="XC5-WO-J60" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="cQD-jt-FPx"/>
+                            <constraint firstItem="QdE-bi-VbK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="eEP-gb-kJa"/>
+                            <constraint firstItem="Qx6-SX-3Wd" firstAttribute="top" secondItem="XC5-WO-J60" secondAttribute="bottom" constant="20" id="emJ-Zz-ffQ"/>
+                            <constraint firstItem="sGI-8X-1nk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="enB-Zw-K53"/>
+                            <constraint firstItem="QdE-bi-VbK" firstAttribute="top" secondItem="sGI-8X-1nk" secondAttribute="bottom" constant="20" id="gMY-BB-EJC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QdE-bi-VbK" secondAttribute="trailing" constant="30" id="hsH-V2-Hf4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qx6-SX-3Wd" secondAttribute="trailing" constant="30" id="jkU-8M-Ttr"/>
+                            <constraint firstItem="5MB-fj-epV" firstAttribute="top" secondItem="omN-Hz-bTl" secondAttribute="bottom" constant="20" id="ohG-Qg-vg1"/>
+                            <constraint firstItem="cGp-oC-eOt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ydG-FM-8IJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addressTextField" destination="5MB-fj-epV" id="LjG-Pr-dXK"/>
+                        <outlet property="ageTextField" destination="QdE-bi-VbK" id="jRq-QU-ruv"/>
+                        <outlet property="countryTextField" destination="Qx6-SX-3Wd" id="zOK-Vh-iwA"/>
+                        <outlet property="genderTextField" destination="omN-Hz-bTl" id="vS6-k9-OgN"/>
+                        <outlet property="nameTextField" destination="sGI-8X-1nk" id="DKk-fW-6Xc"/>
+                        <outlet property="phoneTextField" destination="XC5-WO-J60" id="tZu-Dk-hvF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
